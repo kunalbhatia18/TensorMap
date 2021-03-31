@@ -44,7 +44,7 @@ Setup a virtual environment of python 3.7 or below
 
 ```bash
 pip install virtualenv 
-virtualenv venv --python=python2.7
+virtualenv venv --python=python3.7  # python 3.7 or below
 source venv/bin/activate
 ```
 
