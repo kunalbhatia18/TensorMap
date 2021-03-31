@@ -40,6 +40,15 @@ cd TensorMap
 cd tensormap-server
 ```
 
+Setup a virtual environment of python 3.7 or below
+
+```bash
+pip install virtualenv 
+virtualenv venv --python=python2.7
+source venv/bin/activate
+```
+
+
 Then, install all the required packages by running
 
 ```bash
