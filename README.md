@@ -76,7 +76,7 @@ mysql -u {user} -p -Dtensormap < {path-to-dump-file}/dump.sql
 To start the server run
 
 ```bash
-python run.py
+python3 run.py
 ```
 
 ## Built With
