@@ -43,7 +43,7 @@ cd tensormap-server
 Setup a virtual environment of python 3.7 or below
 
 ```bash
-pip install virtualenv 
+pip3 install virtualenv 
 virtualenv venv --python=python3.7  # python 3.7 or below
 source venv/bin/activate
 ```
@@ -52,7 +52,7 @@ source venv/bin/activate
 Then, install all the required packages by running
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 Next, login to MySQL and create a database named 'tensormap'
